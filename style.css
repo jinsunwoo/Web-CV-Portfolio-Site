@@ -81,6 +81,20 @@ p {
   margin: 4px 0;
 }
 
+h4 {
+  font-size: var(--font-small);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 3px 0;
+}
+
+h5 {
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 3px 0;
+}
+
 /* Navbar */
 #nav-bar {
   display: flex;
@@ -121,7 +135,7 @@ p {
 /* Home */
 #home {
   background: url("images/coverpage.png") center/cover no-repeat;
-  padding: 40px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -170,6 +184,43 @@ p {
   cursor: default;
 }
 
+.skillBtn2 {
+  color: var(--color-black);
+  font-size: var(--font-small);
+  font-weight: var(--weight-regular);
+  margin: 15px 5px;
+  padding: 6px 9px;
+  border: 2px solid var(--color-black);
+  border-radius: var(--size-border-radius);
+  cursor: default;
+}
+
 .about__skills {
   margin-top: 25px;
+}
+
+.work__projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project__detail {
+  width: 340px;
+  margin: 10px;
+  border: 2px solid gainsboro;
+  border-radius: 1%;
+}
+
+.project__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 340px;
+  height: 340px;
+  margin: 0;
+  filter: brightness(100%);
+}
+
+.project__detail--description {
+  padding: 0 7px;
 }
