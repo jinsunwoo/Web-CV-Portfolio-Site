@@ -195,6 +195,16 @@ h5 {
   cursor: default;
 }
 
+.skillBtn3 {
+  color: var(--color-black);
+  font-size: var(--font-small);
+  font-weight: var(--weight-regular);
+  margin: 12px 5px 15px 5px;
+  padding: 6px 9px;
+  border: 2px solid var(--color-black);
+  border-radius: var(--size-border-radius);
+}
+
 .about__skills {
   margin-top: 25px;
 }
@@ -208,6 +218,7 @@ h5 {
 .project__detail {
   width: 340px;
   margin: 10px;
+  padding-bottom: 15px;
   border: 2px solid gainsboro;
   border-radius: 1%;
 }
@@ -222,5 +233,39 @@ h5 {
 }
 
 .project__detail--description {
-  padding: 0 7px;
+  padding: 0 15px;
+}
+
+.experience {
+  border: 2px solid gainsboro;
+  border-radius: 1%;
+  padding: 40px 0;
+}
+
+.education__logo {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.education__courses {
+  border: 2px solid gainsboro;
+  border-radius: 1%;
+  margin-top: 20px;
+  padding: 30px 0;
+}
+
+/* Contact */
+#contact {
+  background-color: #d4abe0;
+  max-width: 100%;
+  padding: 30px;
+}
+
+.contact__links__logo {
+  margin: 30px 10px;
+}
+
+.contact__title {
+  color: var(--color-white);
+  margin-bottom: 20px;
 }
